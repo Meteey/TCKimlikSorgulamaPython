@@ -46,3 +46,7 @@ def idcheck():
     json_data = json.dumps(data_dict)
     result = data_dict['soap:Envelope']['soap:Body']['TCKimlikNoDogrulaResponse']['TCKimlikNoDogrulaResult']
     return True if result == "true" else False
+
+
+if __name__ == '__main__':
+    app.run()
