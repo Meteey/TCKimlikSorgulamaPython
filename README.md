@@ -1,5 +1,5 @@
 # TCKimlikSorgulamaPython
-Python ile TC Kimlik Numarası, İsim, Soyisim ve Doğum yılı kullanılarak kullanıcının Türkiye Cumhuriyeti Vatandaşı olup olmadığını kontrol etmek için yazılmıştır. Uygulamalarda kayıt olurken kontrol için kullanılabilir. Flask ile kimlik_sorgu_server.py dosyası üzerinden server çalıştırıp uygulama ile bağlanılabilir. 
+Python ile TC Kimlik Numarası, İsim, Soyisim ve Doğum yılı kullanılarak kullanıcının Türkiye Cumhuriyeti Vatandaşı olup olmadığını kontrol etmek için yazılmıştır. Uygulamalarda kayıt olurken kontrol için kullanılabilir. Kimlik_sorgu_server.py dosyası server üzerinden çalıştırıp dışarıdan bağlantı kurulabilir. 
 
 
 Localhost üzerinden örnek bir bağlantı (Postman kullanılmıştır!)
