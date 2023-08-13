@@ -44,8 +44,7 @@ def idcheck():
     response = requests.request("POST", url, headers=headers, data=payload)
     data_dict = xmltodict.parse(response.text)
     json_data = json.dumps(data_dict)
-    result = data_dict['soap:Envelope']['soap:Body']['TCKimlikNoDogrulaResponse']['TCKimlikNoDogrulaResult']
-    return True if result == "true" else False
+    return json_data
 
 
 if __name__ == '__main__':
